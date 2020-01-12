@@ -1,0 +1,13 @@
+<html>
+<body>
+Урок:<br>
+<h1>{{ .Name }}</h1><br>
+Описание урока: {{ .Description }}<br><hr>
+<div>
+    <form action="/uploadreport?id={{ .CourseID }}&l={{ .LessonID }}" method="post"  enctype="multipart/form-data">
+         Архив с решением: <input type="file" name="report">
+        <input type="submit" value="Upload">
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+    "database": { 
+        "host": "do.cc3.ru:5432",
+        "database": "grader",
+        "user": "grader",
+        "password": "abracadabra"
+    }
+}

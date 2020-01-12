@@ -1,0 +1,7 @@
+{
+    "host": "127.0.0.1:12000",
+    "rabbitmq": "amqp://grader:Vfnhtirf79@do.cc3.ru:5672",
+    "graders" : [
+        "127.0.0.1:10000"
+    ]
+}
