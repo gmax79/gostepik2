@@ -1,0 +1,10 @@
+<html>
+<body>
+Уроки на курсе:<br>
+<table>
+	{{range  $i, $a := .}}
+		<tr><td>{{inc $i}}</td><td>{{ .Name }}</td><td><a href="lesson?id={{ .CourseID }}&l={{ .LessonID }}">===</a></td></tr>
+	{{end}}
+</table>
+</body>
+</html>

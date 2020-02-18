@@ -1,0 +1,10 @@
+<html>
+<body>
+Курсы:<br>
+<table>
+	{{range  $i, $a := .}}
+		<tr><td>{{inc $i}}</td><td><a href="cdetails?id={{ .ID }}">{{ .Name }}</a></td><td>{{ .Description }}</td></tr>
+	{{end}}
+</table>
+</body>
+</html>
